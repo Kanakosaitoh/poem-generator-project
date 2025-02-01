@@ -8,19 +8,30 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Poem Generator</h1>
-    <div class="container"></div>
+    <h1>AI Poem Generator</h1>
+    <div class="container" id="search-form">
+      <form>
+        <input type="search" placeholder="Enter a topic of the poem..." />
+        <input type="submit" value="Generate Poem" />
+      </form>
+      <div>i.e: Flower, Maple, Vancouver</div>
+      <div class="container" id="poem"></div>
+    </div>
     <footer>
       This project was coded by
       <a href="https://github.com/Kanakosaitoh" target="_blank"
         >Kanako Saitoh</a
       >
       and is open-sourced on
-      <a href="https://github.com/Kanakosaitoh/poem-generator-project"
+      <a
+        href="https://github.com/Kanakosaitoh/poem-generator-project"
+        target="_blank"
         >GitHub</a
       >
       andis hosted on
-      <a href="https://poem-generator-kanakosaitoh.netlify.app/">Netlify</a>
+      <a href="https://poem-generator-kanakosaitoh.netlify.app" target="_blank"
+        >Netlify</a
+      >
     </footer>
     <script src="src/script.js"></script>
   </body>
