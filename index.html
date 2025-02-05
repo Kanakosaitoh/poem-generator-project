@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>poem-generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -14,10 +15,11 @@
         <h1>AI Poem Generator</h1>
       </header>
       <main>
-        <form class="form" id="text-element">
+        <form class="form" id="poem-generator-form">
           <input
             class="instruction"
             type="text"
+            id="user-instruction"
             placeholder="Enter a topic of the poem..."
           />
           <input

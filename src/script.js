@@ -1,14 +1,13 @@
 function generatePoem(event) {
   event.preventDefault();
-  let poemElement = document.querySelector("#poem");
-  poemElement.innerHTML = "poem";
 
   new Typewriter("#poem", {
-    strings: ["Hello"],
+    strings: "rose is rose",
     autoStart: true,
     delay: 100,
-    cursor: " ",
   });
+  poemElement.innerHTML = "Rose is rose";
 }
-let textElement = document.querySelector("#text-element");
-textElement.addEventListener("submit", generatePoem);
+
+let poemFormElement = document.querySelector("#poem-generator-form");
+poemFormElement.addEventListener("submit", generatePoem);
