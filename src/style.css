@@ -57,6 +57,8 @@ form {
   margin-top: 25px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-left: 3px solid #885df1;
+  line-height: 2;
+  font-size: 16px;
 }
 footer {
   margin: 30px;
