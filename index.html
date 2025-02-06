@@ -20,7 +20,9 @@
             class="instruction"
             type="text"
             id="user-instruction"
-            placeholder="Enter a topic of the poem..."
+            cutofocus
+            requiredautocomplete="off"
+            placeholder="Enter the topic of a Canadian poem"
           />
           <input
             type="submit"
@@ -30,9 +32,9 @@
           />
         </form>
 
-        <div class="example">i.e: Flower, Maple, Vancouver</div>
+        <div class="example">i.e: Flower, Maple or Vancouver</div>
       </main>
-      <div class="poem" id="poem"></div>
+      <div class="poem hidden" id="poem"></div>
       <footer>
         This project was coded by
         <a href="https://github.com/Kanakosaitoh" target="_blank"
